@@ -1,0 +1,34 @@
+
+    
+
+nav,header,.contenedor,footer{
+    max-width: 80%;
+    margin: auto;
+}
+
+nav{
+    background-color: rgb(32, 32, 173);
+
+    
+}
+
+header{
+    background-color: white;
+}
+.contenedor{
+    background-color: white;
+}
+.central{
+    background-color: white;
+    display: inline-block;
+    max-width: width 65%;
+}
+footer{
+    background-color: rgb(32, 32, 173);
+    
+}
+aside{
+    background-color: orange;
+    display: inline-block;
+    max-width: 27%;
+}
