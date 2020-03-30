@@ -7,7 +7,7 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: #FFF url(fondo.jpg) repeat-x;
+  
   color: #555;}
 
 
@@ -80,8 +80,9 @@ ul li
 #logo
 { width: 880px;
   position: relative;
-  height: 140px;
-  background: transparent;}
+  height: 120px;
+  background: transparent;
+}
 
 #logo #logo_text 
 { position: absolute; 
@@ -118,10 +119,16 @@ ul li
 
 ul#menu li
 { float: left;
-  padding: 0 0 0 9px;
+  padding: 5px 10px;
   list-style: none;
   margin: 1px 2px 0 0;
-  background: #5A5A5A  no-repeat 0 0;}
+  background: rgb(11, 37, 77)  no-repeat 0 0;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
   
 #menubar ul li a:hover{
   background-color: #434343;
@@ -129,25 +136,27 @@ ul#menu li
 }
 ul#menu li a
 { font: normal 140% 'trebuchet ms', sans-serif;
-  display: block; 
-  float: left; 
+  display: inline-block; 
   height: 20px;
-  padding: 6px 35px 5px 28px;
+  padding: 6px 45px 5px 38px;
   text-align: center;
   color: #FFF;
   text-decoration: none;
+  position: relative;
   } 
 
-#menubar li ul{
+#menu li > ul{
   display: none;
-  position: absolute;
+  
 }
-#menubar li:hover > ul{
+#menu li:hover > ul{
   display: block;
+  position: absolute;
+  
 
 }
-#menubar ul li ul{
-  position: relative;
+#menu ul li ul{
+  position: absolute;
 }
 #site_content
 { width: 880px;
