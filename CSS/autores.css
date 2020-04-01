@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("fondo.jpg");
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-weight: bold;
+}
+.banner{
+	align-content: center;
+	width: auto;
+	margin: auto;
+	display: block
+}
+
+.imagen{
+	width: 100px;
+	border: dashed rgba(147,117,193,0.44);
+}
+.imagen:hover{
+	width: 300px;
+}
+li::first-line{
+	color: navy;
+}
+h1{
+	text-align: center;
+	text-shadow:2px 2px 8px r;
+	box-shadow: 2px 2px 2px 0.2; 
+}
+
+
+
+/*ESTILO DEL INDEX*/
+
+#menubar
+{ width: 880px;
+  height: 46px;}
+ul#menu li
+{ float: left;
+  padding: 0px;
+  list-style: none;
+  margin: 2px;
+  width: 160px; /* se agranda la barra*/
+  background: #5A5A5A;}
+
+ul#menu li a
+{ font: normal 100% 'trebuchet ms', sans-serif;
+  float: left; 
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  }
+#menubar,#footer
+{ margin-left: auto; 
+  margin-right: auto;}
+#footer
+{ width: 65%;
+  font-family: 'trebuchet ms', sans-serif;
+  font-size: 100%;
+  height: 120px;
+  padding: 28px 0 5px 0;
+  text-align: center;
+   color: black;}
+
